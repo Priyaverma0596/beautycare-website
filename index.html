@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Ecommerce Website</title>
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="navbar">
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="index.html">Home</a></li>
+            <li>
+              <div class="catalogue">
+                <button class="cataloguebtn">Catalogue</button>
+                <div class="catalogue-content">
+                  <a
+                    href="#"
+                    style="display: flex; flex-direction: column; gap: 15px"
+                    >Hair Care
+                    <img src="/Images/Hair care.jpg" />
+                    <p>Love is in the hair.</p>
+                  </a>
+                  <a
+                    href="#"
+                    style="display: flex; flex-direction: column; gap: 15px"
+                    >Stress Care
+                    <img src="/Images/Stress Care.jpg" />
+                    <p>
+                      Best stress-relieving products inspire meticulous
+                      self-care
+                    </p>
+                  </a>
+                  <a
+                    href="#"
+                    style="display: flex; flex-direction: column; gap: 15px"
+                    >Health Care
+                    <img src="/Images/Health Care.jpeg" />
+                    <p>
+                      Nothing, in our opinion, is more crucial than one's
+                      health.
+                    </p>
+                  </a>
+                  <a
+                    href="#"
+                    style="display: flex; flex-direction: column; gap: 15px"
+                    >Beard Care
+                    <img src="/Images/Beard Care.jpg" />
+                    <p>
+                      our quality selected beard care products to achieve the
+                      beard of your dreams.
+                    </p>
+                  </a>
+                  <a
+                    href="#"
+                    style="display: flex; flex-direction: column; gap: 15px"
+                    >Beauty Care
+                    <img src="/Images/Beauty care.jpg" />
+                    <p>
+                      Discover the best skin care products for you, your skin
+                      problems, or simply to treat your skin.
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li><a href="#">Reviews</a></li>
+            <li><a href="#">Legacy</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </nav>
+        <a href="cart.html"
+          ><img
+            src="https://i.ibb.co/PNjjx3y/cart.png"
+            alt=""
+            width="30px"
+            height="30px"
+        /></a>
+        <img
+          src="https://i.ibb.co/6XbqwjD/menu.png"
+          alt=""
+          class="menu-icon"
+          onclick="menutoggle()"
+        />
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-2">
+            <h1>
+              Transform Yourself with Care <br />
+            </h1>
+            <p>
+              India’s Only Customised Ayurvedic Hair, Skin & Body care.
+            </p>
+            <a href="#" target="_blank" rel="noopener noreferrer" class="btn"
+              >Explore Now &#8594;</a
+            >
+          </div>
+          <div class="col-2">
+            <img src= "Images/Header.jpg" height="100%" width="100%" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Featured categories -->
+    <div class="categories">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <img src="/Images/Trending1.png" alt="" />
+          </div>
+          <div class="col-3">
+            <img src="/Images/Trending3.png" alt="" />
+          </div>
+          <div class="col-3">
+            <img src="/Images/Trending2.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Featured products -->
+    <div class="small-container">
+      <h2 class="title">Featured Products</h2>
+      <div class="row">
+        <div class="col-4">
+          <a href="product_details.html"
+            ><img src="/Images/Feature-1.png" height="70%" width="50%"
+          /></a>
+          <a href="product_details.html">
+            <h4>Moroccan Argan Hair Serum</h4>
+          </a>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>₹500.00</p>
+        </div>
+
+        <div class="col-4">
+          <img src="/Images/feature-2.webp" alt="" />
+          <h4>Stress relieving</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>₹500.00</p>
+        </div>
+
+        <div class="col-4">
+          <img src="/Images/Feature-3.jpg" alt="" />
+          <h4>Revital Women</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <p>₹500.00</p>
+        </div>
+
+        <div class="col-4">
+          <img src="/Images/feature-4.webp" alt="" />
+          <h4>Beard Oil</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>₹500.00</p>
+        </div>
+      </div>
+      <h2 class="title">Latest Products</h2>
+      <div class="row">
+        <div class="col-4">
+          <img src="/Images/Skin1.jpg" alt="" />
+          <h4>Cetaphil</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>₹500.00</p>
+        </div>
+
+        <div class="col-4">
+          <img src="/Images/Hair1.webp" alt="" />
+          <h4>Wow Pack</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>₹500.00</p>
+        </div>
+
+        <div class="col-4">
+          <img src="/Images/latest3.webp" alt="" />
+          <h4>Hair and Nails Vitamins</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <p>₹500.00</p>
+        </div>
+
+        <div class="col-4">
+          <img src="/Images/latest8.webp" alt="" />
+          <h4>Stress Care Tab</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>₹700.00</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-4">
+          <img src="/Images/latest4.webp" alt="" />
+          <h4>Life Herbs</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>₹400.00</p>
+        </div>
+
+        <div class="col-4">
+          <img src="/Images/feature-4.webp" alt="" />
+          <h4>Hair Growth Oil</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>1000.00</p>
+        </div>
+
+        <div class="col-4">
+          <img src="/Images/latest6.webp" alt="" />
+          <h4>Loreal</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <p>₹1500.00</p>
+        </div>
+
+        <div class="col-4">
+          <img src="/Images/latest7.webp" alt="" />
+          <h4>Hair roller</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>₹500.00</p>
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- Testimonial -->
+    <div class="testimonial">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <i class="fas fa-quote-left"></i>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis, quae molestias error id est voluptatibus quos amet
+              numquam aspernatur nam cumque ullam? Veritatis eveniet et, maxime
+              eaque soluta quas modi.
+            </p>
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <img src="https://i.ibb.co/zfXD2Tx/user-1.png" alt="" />
+            <h3> Expert Marta W.</h3>
+          </div>
+
+          <div class="col-3">
+            <i class="fas fa-quote-left"></i>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis, quae molestias error id est voluptatibus quos amet
+              numquam aspernatur nam cumque ullam? Veritatis eveniet et, maxime
+              eaque soluta quas modi.
+            </p>
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <img src="https://i.ibb.co/FVyK1KM/user-2.png" alt="" />
+            <h3> Expert Rula P.</h3>
+          </div>
+
+          <div class="col-3">
+            <i class="fas fa-quote-left"></i>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis, quae molestias error id est voluptatibus quos amet
+              numquam aspernatur nam cumque ullam? Veritatis eveniet et, maxime
+              eaque soluta quas modi.
+            </p>
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <img src="https://i.ibb.co/jZ3tQqK/user-3.png" alt="" />
+            <h3> Expert Vika Z.</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog Post</li>
+              <li>Return Policy</li>
+              <li>Join Affiliate</li>
+            </ul>
+          </div>
+
+          <div class="footer-col-4">
+            <h3>Follow us</h3>
+            <ul>
+              <li>
+                <a href = "https://www.facebook.com/">Facebook</a></li>
+                <li>
+                  <a href = "https://twitter.com/">Twitter</a></li>
+                  <li>
+                    <a href = "https://www.instagram.com/">Instagram</a></li>
+                    <li>
+                      <a href = "https://www.youtube.com/">You Tube</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">Copyright &copy; 2021 - Care Store</p>
+      </div>
+    </div>
+
+    <!-- js for toggle menu -->
+    <script src="index.js"></script>
+  </body>
+</html>
